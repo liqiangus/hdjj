@@ -12,10 +12,15 @@ class FirstViewController: UIViewController, UITableViewDataSource {
     
     private let activityCellIdentifier = "activityCellIdentifier"
 
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view, typically from a nib.
+        tableView.registerClass(ActivityCell.self, forCellReuseIdentifier: activityCellIdentifier)
+        let nib = UINib(nibName: "ActivityCell", bundle: nil)
+        tableView.registerNib(nib, forCellReuseIdentifier: activityCellIdentifier)
 
     }
 
@@ -38,7 +43,7 @@ class FirstViewController: UIViewController, UITableViewDataSource {
     }
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if section == 0 {
-            return 2
+            return 12
         } else {
             return 0;
         }

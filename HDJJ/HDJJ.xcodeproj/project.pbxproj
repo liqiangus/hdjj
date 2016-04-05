@@ -16,6 +16,8 @@
 		670D2FD81CABF93D00DC2AF6 /* HDJJTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670D2FD71CABF93D00DC2AF6 /* HDJJTests.swift */; };
 		670D2FE31CABF93D00DC2AF6 /* HDJJUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670D2FE21CABF93D00DC2AF6 /* HDJJUITests.swift */; };
 		6781C9301CB0099300DD6DE6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6781C92F1CB0099300DD6DE6 /* DetailViewController.swift */; };
+		679DDDC91CB3EE3900C61E37 /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679DDDC71CB3EE3900C61E37 /* ActivityCell.swift */; };
+		679DDDCA1CB3EE3900C61E37 /* ActivityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 679DDDC81CB3EE3900C61E37 /* ActivityCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		670D2FE21CABF93D00DC2AF6 /* HDJJUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDJJUITests.swift; sourceTree = "<group>"; };
 		670D2FE41CABF93D00DC2AF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6781C92F1CB0099300DD6DE6 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		679DDDC71CB3EE3900C61E37 /* ActivityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
+		679DDDC81CB3EE3900C61E37 /* ActivityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				670D2FC91CABF93D00DC2AF6 /* Assets.xcassets */,
 				670D2FCB1CABF93D00DC2AF6 /* LaunchScreen.storyboard */,
 				670D2FCE1CABF93D00DC2AF6 /* Info.plist */,
+				679DDDC71CB3EE3900C61E37 /* ActivityCell.swift */,
+				679DDDC81CB3EE3900C61E37 /* ActivityCell.xib */,
 			);
 			path = HDJJ;
 			sourceTree = "<group>";
@@ -237,6 +243,7 @@
 			files = (
 				670D2FCD1CABF93D00DC2AF6 /* LaunchScreen.storyboard in Resources */,
 				670D2FCA1CABF93D00DC2AF6 /* Assets.xcassets in Resources */,
+				679DDDCA1CB3EE3900C61E37 /* ActivityCell.xib in Resources */,
 				670D2FC81CABF93D00DC2AF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +271,7 @@
 			files = (
 				670D2FC51CABF93D00DC2AF6 /* SecondViewController.swift in Sources */,
 				670D2FC11CABF93D00DC2AF6 /* AppDelegate.swift in Sources */,
+				679DDDC91CB3EE3900C61E37 /* ActivityCell.swift in Sources */,
 				670D2FC31CABF93D00DC2AF6 /* FirstViewController.swift in Sources */,
 				6781C9301CB0099300DD6DE6 /* DetailViewController.swift in Sources */,
 			);
